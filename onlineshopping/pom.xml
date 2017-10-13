@@ -13,7 +13,7 @@
 	</properties>
 
 	<dependencies>
-		<!-- JAVA EE -->
+		<!-- JAVA EE Dependency -->
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
@@ -21,7 +21,7 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- JUNIT -->
+		<!-- JUNIT Dependency -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -29,20 +29,19 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- SPRING -->
+		<!-- SPRING Dependency -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
 
-		<!-- JSTL -->
+		<!-- JSTL Dependency -->
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-
 
 	</dependencies>
 	<build>
@@ -57,7 +56,6 @@
 			</plugin>
 
 		</plugins>
-
 		<finalName>onlineshopping</finalName>
 	</build>
 </project>
