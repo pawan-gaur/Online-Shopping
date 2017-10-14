@@ -10,9 +10,7 @@ import com.pgaur.shoppingbackend.dto.Category;
 
 @Repository("categoryDAO")
 public class CategoryDAOimpl implements CategoryDAO {
-	
 	private static List<Category> categories = new ArrayList<>();
-	
 	static{
 		//Adding first category
 		Category category = new Category();
@@ -20,7 +18,6 @@ public class CategoryDAOimpl implements CategoryDAO {
 		category.setName("Television");
 		category.setDescription("This is some description for television");
 		category.setImageURL("CAT_1.png");
-		
 		categories.add(category);
 		
 		//Adding second category
@@ -29,7 +26,6 @@ public class CategoryDAOimpl implements CategoryDAO {
 		category.setName("Mobile");
 		category.setDescription("This is some description for mobile");
 		category.setImageURL("CAT_2.png");
-		
 		categories.add(category);
 		
 		//Adding third category
@@ -38,7 +34,6 @@ public class CategoryDAOimpl implements CategoryDAO {
 		category.setName("Laptop");
 		category.setDescription("This is some description for laptop");
 		category.setImageURL("CAT_3.png");
-		
 		categories.add(category);
 	}
 
