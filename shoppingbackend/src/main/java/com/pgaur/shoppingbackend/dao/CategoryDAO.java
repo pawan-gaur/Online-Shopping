@@ -10,6 +10,4 @@ public interface CategoryDAO {
 	
 	Category get(int id);
 	
-	
-
 }
