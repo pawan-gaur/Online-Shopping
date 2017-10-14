@@ -24,6 +24,7 @@ public class PageController {
 		mv.addObject("userClickHome", true);
 		return mv;
 	}
+	
 
 	@RequestMapping(value = {"/about"})
 	public ModelAndView about() {
@@ -33,6 +34,7 @@ public class PageController {
 		return mv;
 	}
 	
+	
 	@RequestMapping(value = {"/contact"})
 	public ModelAndView contact() {
 		ModelAndView mv = new ModelAndView("page");
@@ -40,6 +42,7 @@ public class PageController {
 		mv.addObject("userClickContact", true);
 		return mv;
 	}
+	
 	
 	//Methods to load all the products and based on category
 	@RequestMapping(value = "/show/all/products")
@@ -51,6 +54,7 @@ public class PageController {
 		mv.addObject("userClickAllProducts", true);
 		return mv;
 	}
+	
 	
 	@RequestMapping(value = "/show/category/{id}/products")
 	public ModelAndView showCategoryProducts(@PathVariable("id") int id) {
