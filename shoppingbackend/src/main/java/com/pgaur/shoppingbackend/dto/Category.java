@@ -2,10 +2,6 @@ package com.pgaur.shoppingbackend.dto;
 
 public class Category {
 	
-	/*
-	 * Private fields
-	 */
-	
 	private int id;
 	private String name;
 	private String description;
