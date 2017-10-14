@@ -4,7 +4,6 @@
 		<div class="col-md-3">
 			<%@include file="./shared/sidebar.jsp"%>
 		</div>
-
 		<!-- To display actual products -->
 		<div class="col-md-9">
 			<!--  Added breadcrumb component -->
@@ -24,9 +23,7 @@
 							<li class="active">Category</li>
 							<li class="active">${category.name}</li>
 						</ol>
-					</c:if>
-					
-					
+					</c:if>			
 				</div>
 			</div>
 		</div>
